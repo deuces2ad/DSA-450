@@ -235,8 +235,9 @@ func pattern12(){
     let n = 5
     var row = 0
     let initialChar = "A"
-    var rawChar : UInt8 = UInt8(initialChar.encodeAschiiValue) - 1
     
+    var rawChar : UInt8 = UInt8(initialChar.encodeAschiiValue) - 1
+    print(rawChar)
     while(row < n ){
         rawChar = rawChar + 1
         var column = 0
