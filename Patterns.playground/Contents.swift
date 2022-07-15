@@ -206,26 +206,31 @@
 //
 //pattern10()
 
-//func pattern11(){
-//   let n = 5
-//   var row = 0
-//
-//    while ( row < n){
-//        var column = 0
-//        var count = row
-//
-//        while(column < row ){
-//         print(count,terminator: " ")
-//            count = count - 1
-//            column = column + 1
-//        }
-//        print("")
-//        row = row + 1
-//    }
-//}
+func pattern11(){
+   let n = 5
+   var row = 0
+
+    while ( row < n){
+        var column = 0
+        var count = row
+
+        while(column < row ){
+         print(count,terminator: " ")
+            count = count - 1
+            column = column + 1
+        }
+        print("")
+        row = row + 1
+    }
+}
 //
 //pattern11()
-
+//MARK: - Pattern12
+//A A A A A
+//B B B B B
+//C C C C C
+//D D D D D
+//E E E E E
 func pattern12(){
     let n = 5
     var row = 0
