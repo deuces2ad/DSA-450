@@ -19,5 +19,4 @@ func printFebonacciSeries(upto num:Int){
     
 }
 
-
 printFebonacciSeries(upto: 10)
