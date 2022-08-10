@@ -1,7 +1,9 @@
 import UIKit
+import Darwin
 
-var greeting = "Hello, playground"
 //https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+
+let array  = [5,7,7,8,8,10], target = 8
 
 class Solution {
     func searchRange(_ nums: [Int], _ target: Int) -> [Int] {
@@ -59,9 +61,9 @@ class Solution {
              mid = start + (end - start)/2
 
         }
+//            print(key,"present at index \(ans) from left most")
         return ans
     }
-
 }
 
-Solution().searchRange([1,2,3], 3)
+Solution().searchRange(array, target)
